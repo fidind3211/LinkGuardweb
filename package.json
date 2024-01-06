@@ -1,0 +1,19 @@
+{
+    "name": "antileak-bot",
+    "description": "a bot that catches and bans link leakers.",
+    "main": "src/bot.js",
+    "type": "module",
+    "author": "@xthonk",
+    "scripts": {
+        "dev": "nodemon .",
+        "start": "node ."
+    },
+    "dependencies": {
+        "axios": "^1.6.2",
+        "cheerio": "^1.0.0-rc.12",
+        "discord.js": "^14.14.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
